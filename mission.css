@@ -1,0 +1,44 @@
+body {
+  background-color: lightblue;
+}
+
+#TopNav{
+  background: black;
+  color: black;
+  box-shadow: 5px 5px 20px black;
+  height: auto;
+  width: auto;
+  text-align: center;
+
+}
+#TopNav li {
+  display: inline-block;
+  color: #F5FEFD;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  margin: 0px;
+  padding: 0px 40px;
+  width: auto;
+  
+}
+
+#TopNav a {
+  color: white;
+  letter-spacing: 0.2px;
+  font-family: Calibri;
+  text-decoration: none;
+}
+#TopNav a:hover {
+   color: #0096FF;
+   transition: 0.2s linear;
+}
+
+div {
+  text-align: center;
+  background-color: #0080FF;
+}
+
+#div1 {
+  background-color: white;
+}
