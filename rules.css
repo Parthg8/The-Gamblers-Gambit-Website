@@ -1,1 +1,91 @@
+body {
+  background-color: lightblue;
+  max-width: 2000px;
+  margin: auto;
+}
 
+#TopNav{
+  background: black;
+  color: black;
+  box-shadow: 5px 5px 20px black;
+  height: auto;
+  width: auto;
+  text-align: center;
+
+}
+#TopNav li {
+  display: inline-block;
+  color: #F5FEFD;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  margin: 0px;
+  padding: 0px 40px;
+  width: auto;
+}
+
+#TopNav a {
+  color: white;
+  letter-spacing: 0.2px;
+  font-family: Calibri;
+  text-decoration: none;
+}
+#TopNav a:hover {
+   color: #0096FF;
+   transition: 0.2s linear;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Helvetica;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+  font-family: Helvetica;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.25;
+  font-family: auto;
+}
+
+ul, ol {
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+table {
+  font-family: Helvetica;
+  text-align: center;
+  width: 55%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+td:hover, th:hover {
+  background-color: grey;
+  transition: 0.2s linear;
+}
+
+th {
+  font-size: 17px;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+}
+
+td {
+    font-size: 15px;
+}
